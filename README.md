@@ -63,4 +63,4 @@ You can also use EventEmitter as parent for your "class".
 	...
 
 ````
-As you se, the syntax of removing handler is exactly the same what in case of Angular scopes.
+As you see, the usage is exactly the same what Angular scope on/emit.
