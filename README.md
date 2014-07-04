@@ -40,7 +40,7 @@ You can also use EventEmitter as parent for your "class".
 
 	MyEmitter.prototype = Object.create(EventEmitter.prototype, {
 	    constructor: {
-			value: EventEmitter,
+			value: MyEmitter,
 			enumerable: false,
 			writable: true,
 			configurable: true
