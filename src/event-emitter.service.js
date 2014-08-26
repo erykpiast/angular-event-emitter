@@ -13,7 +13,7 @@ angular
                 }
 
                 if(!angular.isFunction(handler)) {
-                    $exceptionHandler(Error('event handler must be a function'));
+                    $exceptionHandler(new Error('event handler must be a function'));
                 }
 
                 var eventHandlers = (this._eventsHandlers[eventName] || (this._eventsHandlers[eventName] = [ ]));
